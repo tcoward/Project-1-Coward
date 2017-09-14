@@ -9,13 +9,13 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background:tan ;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: black;
 }
 a:hover {
   color: #6633ff;
@@ -26,10 +26,11 @@ a:hover {
 .main-nav {
   width: 100%;
   background: black;
-  min-height: 30px;
+  min-height: 10px;
   padding: 10px;
   position: fixed;
   text-align: center;
+  color:white;
 }
 .nav {
   display: flex;
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background color: red;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,17 +68,17 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width:200px;
+  height:200px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.8) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: white;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -150,15 +151,19 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
-}
+  
+.social}
 a.twitter {
   background-image: url(images/twitter.svg);
+  color:Black;
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
+  color:Black;
 }
 a.github {
   background-image: url(images/github.svg);
+  color:Black;
 }
 a.social:hover {
   opacity: 1;
@@ -202,6 +207,46 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
+  
+  .contact{
+  
+  color:black;
+  
+  }
+ .background-color{
+  color:blue;
+  
+  }
+  .social-info{
+  
+  font-family:inherit;
+  color:black;
+    
+  }
+ .instagram-image
+  {
+   margin-top: 50px;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  border:color=tan;
+  transition: all .5s;
+   
+  }
+  
+  .twitter-image
+  {
+  margin-top: 50px;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+  
+  }
+  
+  
+ 
+  
 }
 
